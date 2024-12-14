@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = "myapp-image"
+        DOCKER_IMAGE = "devsecops-app:v1"
         DOCKER_REGISTRY = "docker.io"
     }
 
